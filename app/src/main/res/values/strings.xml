@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppComponentExample</string>
+    <string name="load_value_btn">Load Value</string>
+    <string name="load_values_btn">Load Values</string>
+    <string name="value_will_be_here_tv_hint">Value will be here</string>
+    <string name="values_will_be_here_tv_hint">Values will be here</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".main.MainActivity">
+
+    <Button
+            android:id="@+id/load_value_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/load_value_btn"/>
+
+    <TextView
+            android:id="@+id/value_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/value_will_be_here_tv_hint"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <Button
+            android:id="@+id/load_values_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/load_values_btn"/>
+
+    <TextView
+            android:id="@+id/values_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/values_will_be_here_tv_hint"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+</LinearLayout>
